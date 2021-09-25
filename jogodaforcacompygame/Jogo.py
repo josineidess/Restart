@@ -51,26 +51,32 @@ class Jogo:
     def palavra_atual(self):
         return self.__palavra_atual
 
+    # Função que sustenta a condição do looping do jogo
     def rodando(self):
         if " " not in self.__tentativa or self.palpites == 5:
             return True
         else:
             return False
 
+    # Função para definir a mensagem a ser exibida no final
     def ganhou(self):
         if self.palpites < 5:
             return True
         else:
             return False
 
+    # Seleciona as palavras que atendem as especificações do jogador(tema e dificuldade)
     def selecionar(self):
-        for palavra in Palavra.get_palavras():
+        for (
+            palavra
+        ) in Palavra.get_palavras():  # Acessa a variavel estática da classe Palavra
             if (
                 palavra.categoria == self.__tema
                 and palavra.dificuldade == self.__dificuldade
             ):
                 self.__palavras_selecionadas.append(palavra)
 
+    # Sorteia uma palavra das que já foram selecionadas
     def pegar_palavra(self):
         sorteado = random.randint(0, len(self.__palavras_selecionadas) - 1)
         if sorteado not in self.__jogadas:
@@ -80,6 +86,7 @@ class Jogo:
         else:
             self.pegar_palavra()
 
+    # Função que valida a letra, substituindo na palavra tentada e adicionando palpites
     def tentar(self, letra):
         if letra not in self.__letras_tentadas and letra in self.__palavra_atual:
             for l in range(len(self.__palavra_atual)):
