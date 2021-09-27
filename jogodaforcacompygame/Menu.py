@@ -1,4 +1,3 @@
-
 class Menu():
-  def __init__(self):
-    self.rodando = True
+    def __init__(self):
+        self.rodando = True
