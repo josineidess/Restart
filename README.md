@@ -7,4 +7,5 @@ Nesse repositório eu estou colocando projetos que não fui capaz de terminar an
 </head>
 <body>
 <h3 style="font-family: Cabin Sketch;">Jogo da forca</h3>
+  <p>Esse jogo está sendo desenvolvido utilizando a biblioteca pygame</p>
 </body>
