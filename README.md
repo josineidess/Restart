@@ -12,7 +12,8 @@ Nesse repositório eu estou colocando projetos que não fui capaz de terminar an
 
 ## Progresso
    
-  ![alt text] (https://github.com/josineidess/Restart/blob/main/images/loading.png)
+  ![alt text](https://github.com/josineidess/Restart/blob/main/images/loading.PNG)
+  
   ### Estrutura
   
   - ✅ Criação da classe Menu
