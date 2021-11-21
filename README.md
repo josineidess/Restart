@@ -10,9 +10,8 @@ Nesse repositório eu estou colocando projetos que não fui capaz de terminar an
   <p>Esse jogo está sendo desenvolvido utilizando a biblioteca pygame 🐍</p>
 </body>
 
-## Progresso
-   
-  ![alt text](https://github.com/josineidess/Restart/blob/main/images/loading.PNG)
+## Progresso Total
+  - ![100%](https://progress-bar.dev/25)
   
   ### Estrutura
   
@@ -20,6 +19,7 @@ Nesse repositório eu estou colocando projetos que não fui capaz de terminar an
   - ✅ Criação da classe Jogador
   - ✅ Criação da classe Jogo
   - ✅ Criação da classe Palavra
+  #### ![100%](https://progress-bar.dev/100)
   
   ### Estilização
   
@@ -31,6 +31,7 @@ Nesse repositório eu estou colocando projetos que não fui capaz de terminar an
   - ⬜ Tela de game over
   - ⬜ Sprints das letras
   - ⬜ Sprint da forca
+  #### ![100%](https://progress-bar.dev/12)
   
   ### Funcionalidades
   
@@ -44,3 +45,4 @@ Nesse repositório eu estou colocando projetos que não fui capaz de terminar an
   - ⬜ Condições de progresso do jogo
   - ⬜ Sistema de perda de vidas
   - ⬜ Caso de game over
+  #### ![100%](https://progress-bar.dev/0)
